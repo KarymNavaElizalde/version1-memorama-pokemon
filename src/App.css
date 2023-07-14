@@ -1,0 +1,50 @@
+
+
+body {
+  color: black;
+  background-image: url("/public/cielo-fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-container img{
+  width: 600px;
+  height: auto;
+}
+
+.cards-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.card {
+  display: flex;
+  height: 330px;
+  width: 260px;
+  margin: 10px;
+  object-fit: contain;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgb(56, 56, 56);
+  background-color: aliceblue;
+  padding: 15px;
+  justify-content: center;
+}
+
+.reverso {
+  background-color: rgb(215, 232, 247);
+  
+}
